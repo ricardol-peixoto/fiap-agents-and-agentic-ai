@@ -20,8 +20,13 @@ O objetivo é desenvolver um Assistente de Investimentos autônomo e explicável
 - **Segurança de Credenciais**: Nenhuma chave de API deve ser versionada ou exposta. O agente utiliza `os.environ.get()` e inputs mascarados via `getpass`.
 
 ## 3. Estrutura dos Arquivos
-- `Trabalho_Final_QuantumFinance_AI_Agent.ipynb`: Notebook principal de entrega, executável em Google Colab e ambiente local.
+- `Trabalho_Final_QuantumFinance_AI_Agent.ipynb`: Notebook principal de entrega, executável em Google Colab, Databricks Community Edition e ambiente local.
 - `ARCHITECTURE.md`: Especificação técnica detalhada e diagramas Mermaid.
 - `README.md`: Guia de execução, apresentação executiva e mapeamento da rubrica acadêmica.
-- `resources/`: Transcrições das aulas e enunciados em PDF/DOCX.
-- `resources/notebooks_aula/`: Notebooks de referência das aulas ministradas pelo professor.
+- `resources/`: Transcrições das aulas e enunciados em PDF/DOCX (ignorado no git).
+- `resources/notebooks_aula/`: Notebooks de referência das aulas ministradas pelo professor (ignorado no git).
+
+## 4. Evolução Futura & Databricks Apps
+- **Databricks Community Edition (Free)**: Garantir que qualquer pessoa consiga importar e executar o notebook gratuitamente sem fricção ou dependência de cloud paga.
+- **Databricks Apps**: Estruturar a aplicação para possibilitar a publicação como um Databricks App (Gradio/Streamlit) servido nativamente no ecossistema Databricks.
+

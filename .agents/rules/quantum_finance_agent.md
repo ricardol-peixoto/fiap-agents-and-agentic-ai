@@ -12,3 +12,5 @@
    - Percepção: APIs de mercado (`yfinance`) e feeds RSS (`feedparser`).
    - Raciocínio: Indicadores quantitativos (RSI, MACD, MM20/50, Bollinger) e sentimento NLP.
    - Ação: Recomendações estruturadas (formato JSON da aula) e chat interativo.
+5. **Compatibilidade Databricks**: Manter todo o código compatível com importação direta e execução no Databricks Community Edition (cluster gratuito sem GPU) e pronto para empacotamento no Databricks Apps.
+
