@@ -63,6 +63,19 @@ flowchart TD
 
 ---
 
+## 🛡️ 2.1. Diferencial de Engenharia: Modo Resiliente com Fallback Offline (Graceful Degradation)
+> [!TIP]
+> **Alta Disponibilidade e Execução Sem Barreiras:**
+> Em arquiteturas de dados de missão crítica, agentes de IA não podem falhar se a API de um provedor de LLM sofrer oscilações, atinja limites de requisições (*rate limits*) ou se o usuário não possuir créditos cadastrados.
+> 
+> O **QuantumAdvisor** incorpora o padrão de engenharia **Graceful Degradation**:
+> 1. **Modo Conectado (LLM via Google ADK)**: Utiliza `gemini-2.5-flash`, `gpt-4o-mini` ou `Llama 3` orquestrado pelo Google ADK.
+> 2. **Modo Resiliente (Fallback Offline Determinístico)**: Caso nenhuma chave seja detectada, o agente aciona automaticamente um motor analítico fundamentado. Ele consome dados reais da B3 via `yfinance`, calcula matematicamente todos os indicadores técnicos, lê as notícias reais via RSS (`feedparser`), executa o backtest e sintetiza o parecer com **Chain-of-Thought** e o **JSON estruturado do Slide 7**.
+> 
+> Isso garante **100% de reprodutibilidade** no **Google Colab**, **Databricks Community Edition (Free)** ou em qualquer terminal local sem custo e sem atrito.
+
+---
+
 ## 🧠 3. As Três Dimensões do AI Agent
 
 ### 👁️ A. Percepção (Perception)

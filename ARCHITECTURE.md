@@ -78,6 +78,15 @@ sequenceDiagram
 
 ---
 
+## 2.1. Arquitetura de Resiliência: Graceful Degradation & Fallback Offline
+
+A arquitetura incorpora o princípio de **Engenharia de Confiabilidade de Sistemas (SRE)** aplicado a Agentes de IA:
+1. **Primary Path (Online LLM Reasoning)**: O agente utiliza o **Google ADK** conectado a provedores Foundation Models (`gemini-2.5-flash` ou `gpt-4o-mini` via LiteLLM) para conduzir o ciclo conversacional e reflexivo.
+2. **Resilient Fallback Path (Deterministic Analytical Engine)**: Caso o provedor de LLM atinja *rate limits* (HTTP 429), tempo limite de rede (timeout) ou caso o ambiente não possua chaves de API configuradas (ex: execução por avaliadores no **Databricks Community Edition** ou **Google Colab**), o sistema ativa imediatamente o **Motor Analítico Determinístico**.
+3. **Preservação de Regras de Negócio**: O motor de contingência executa as ferramentas reais de percepção (`yfinance` para dados OHLCV e `feedparser` para notícias ao vivo), calcula todos os indicadores matemáticos, processa o sentimento, simula o backtest e gera o relatório com **Chain-of-Thought** e o **JSON canônico do Slide 7**, garantindo 100% de disponibilidade sem lançar exceções não tratadas ao usuário final.
+
+---
+
 ## 3. Especificação das Ferramentas (Agent Tools)
 
 ### 3.1. `get_market_data(ticker: str, period: str = "60d") -> dict`
