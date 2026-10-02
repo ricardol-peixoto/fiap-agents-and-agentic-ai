@@ -5,7 +5,7 @@ Este repositório contém a implementação do Trabalho Final da disciplina **Ag
 
 **Integrantes do Grupo:**
 - Fátima Beatriz Rodrigues
-- Jean Ertsogue
+- Jean Felipe Ertzogue
 - Luiz Soldatelli Neto
 - Ricardo Peixoto
 

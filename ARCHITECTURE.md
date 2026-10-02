@@ -4,7 +4,7 @@ Documento de especificação técnica e arquitetura do Assistente de Investiment
 
 **Integrantes do Grupo:**
 - Fátima Beatriz Rodrigues
-- Jean Ertsogue
+- Jean Felipe Ertzogue
 - Luiz Soldatelli Neto
 - Ricardo Peixoto
 

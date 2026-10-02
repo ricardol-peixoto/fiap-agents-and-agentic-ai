@@ -4,7 +4,7 @@
 > **Professor:** Felipe Gustavo Silva Teodoro  
 > **Integrantes do Grupo:**
 > - Fátima Beatriz Rodrigues
-> - Jean Ertsogue
+> - Jean Felipe Ertzogue
 > - Luiz Soldatelli Neto
 > - Ricardo Peixoto
 
