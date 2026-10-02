@@ -39,7 +39,11 @@ def add_code(source):
 add_md("""# FIAP — MBA em Data Engineering
 ## Disciplina: Agents and Agentic AI
 ### Professor: Felipe Gustavo Silva Teodoro
-### Aluno: Ricardo de Lima Peixoto
+### Integrantes do Grupo:
+- **Fátima Beatriz Rodrigues**
+- **Jean Ertsogue**
+- **Luiz Soldatelli Neto**
+- **Ricardo Peixoto**
 
 ---
 

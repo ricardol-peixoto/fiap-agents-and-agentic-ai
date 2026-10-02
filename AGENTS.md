@@ -3,6 +3,13 @@
 ## 1. Visão Geral do Projeto
 Este repositório contém a implementação do Trabalho Final da disciplina **Agents and Agentic AI** do curso de **MBA em Data Engineering** (FIAP), ministrado pelo **Professor Felipe Gustavo Silva Teodoro**.
 
+**Integrantes do Grupo:**
+- Fátima Beatriz Rodrigues
+- Jean Ertsogue
+- Luiz Soldatelli Neto
+- Ricardo Peixoto
+
+
 O objetivo é desenvolver um Assistente de Investimentos autônomo e explicável baseado em **AI Agents** para a empresa fictícia **QuantumFinance**, focando em quatro ações prioritárias da B3:
 - `VALE3` (Vale S.A. - Mineração)
 - `PETR4` (Petrobras - Energia)

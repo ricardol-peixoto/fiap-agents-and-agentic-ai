@@ -2,9 +2,12 @@
 > **Trabalho Final da Disciplina:** *Agents and Agentic AI*  
 > **Curso:** MBA em Data Engineering — **FIAP**  
 > **Professor:** Felipe Gustavo Silva Teodoro  
-> **Aluno:** Ricardo de Lima Peixoto  
+> **Integrantes do Grupo:**
+> - Fátima Beatriz Rodrigues
+> - Jean Ertsogue
+> - Luiz Soldatelli Neto
+> - Ricardo Peixoto
 
----
 
 ## 📌 1. Visão Geral do Desafio
 

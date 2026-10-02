@@ -2,6 +2,13 @@
 
 Documento de especificação técnica e arquitetura do Assistente de Investimentos baseado em **AI Agents**, desenvolvido para o Trabalho Final da disciplina **Agents and Agentic AI** (MBA em Data Engineering - FIAP).
 
+**Integrantes do Grupo:**
+- Fátima Beatriz Rodrigues
+- Jean Ertsogue
+- Luiz Soldatelli Neto
+- Ricardo Peixoto
+
+
 ---
 
 ## 1. Visão Geral da Arquitetura
