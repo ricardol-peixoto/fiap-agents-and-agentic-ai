@@ -144,7 +144,15 @@ flowchart TD
 2. Faça o upload do arquivo [`Trabalho_Final_QuantumFinance_AI_Agent.ipynb`](file:///c:/Users/Ricardo/Projetos/agents-and-agentic-ai/Trabalho_Final_QuantumFinance_AI_Agent.ipynb).
 3. Execute as células sequencialmente. O notebook possui suporte tanto para chaves da **API do Google Gemini** quanto da **OpenAI**, além de um modo de execução determinística local caso nenhuma chave seja informada.
 
-### Opção B: Executar Localmente
+### Opção B: Executar no Databricks (Databricks Community Edition - Free)
+1. Acesse sua conta gratuita no [Databricks Community Edition](https://community.cloud.databricks.com/).
+2. No menu lateral, acesse **Workspace** -> **Users** (ou seu diretório pessoal) -> selecione **Import**.
+3. Faça o upload do arquivo `Trabalho_Final_QuantumFinance_AI_Agent.ipynb` (o Databricks aceita nativamente o formato `.ipynb`).
+4. Conecte o notebook a um cluster (Personal Compute / Single Node).
+5. A primeira célula de código (`%pip install -q ...`) instalará todas as dependências isoladas na sessão do cluster.
+6. Execute as células sequencialmente. *Obs: O modo resiliente garante a execução sem fricção mesmo em clusters sem acesso a chaves de API pagas.*
+
+### Opção C: Executar Localmente
 ```bash
 # Clone ou acesse o repositório
 cd c:/Users/Ricardo/Projetos/agents-and-agentic-ai
