@@ -152,6 +152,12 @@ flowchart TD
 5. A primeira célula de código (`%pip install -q ...`) instalará todas as dependências isoladas na sessão do cluster.
 6. Execute as células sequencialmente. *Obs: O modo resiliente garante a execução sem fricção mesmo em clusters sem acesso a chaves de API pagas.*
 
+### 🔑 Gestão Segura de Segredos (Databricks & Google Colab)
+O notebook suporta o carregamento automático e seguro de chaves de API sem expor credenciais em texto puro:
+- **Databricks Secret Scope:** crie um scope chamado `quantumfinance` e armazene o segredo `gemini_api_key` ou `openai_api_key` (CLI: `databricks secrets put-secret quantumfinance gemini_api_key`).
+- **Google Colab Secrets:** no menu lateral esquerdo, clique no ícone de chave 🔑 (Secrets) e adicione a chave `GEMINI_API_KEY` ou `OPENAI_API_KEY`.
+- **Fallback / Local:** caso nenhum segredo de nuvem seja encontrado, o notebook solicitará a chave via entrada interativa mascarada (`getpass`).
+
 ### Opção C: Executar Localmente
 ```bash
 # Clone ou acesse o repositório
