@@ -18,3 +18,9 @@ Thumbs.db
 # Material de aula com chaves e direitos autorais do professor
 resources/
 
+# Arquivos locais e scripts auxiliares de desenvolvimento
+.agents/
+AGENTS.md
+ARCHITECTURE.md
+generate_final_notebook.py
+graficos/
